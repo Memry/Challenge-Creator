@@ -15,19 +15,33 @@ Language preference:  I honestly do not care. I want the tool to be efficient, n
 The information in the file is in the following order:
 
 Challenge Name
+
 Short Name
+
 Summary
+
 Challenge Description
+
 Guild ID
+
 Categories
+
 Gem Prize
+
 Indicator for beginning of tasks
+
 //Tasks are listed in this way:
+
 Task Type: Habit; Title; Notes; Difficulty; Start Date
+
 Task Type: Daily; Title; Notes; Difficulty; Start Date; Repeats; Repeats Every; Repeat On
+
 Task Type: To Do; Title; Notes; Difficulty; Due Date
+
 Task Type: Reward; Title; Notes; Cost
+
 1 Task per line
+
 Indicator for end of tasks
 
 NOTE:  I have a sample of a text file and a csv file.  As I said, either or both could be used.  The information kept in the file can be adapted if it would streamline the program.  For instance, for daily tasks, I have used SMTWHFA for the days of the week.  If a different format would be best for them, I can do that.  I could even use a single bit to indicate weekdays, where 1 (only the first bit on, counting from the low end, of course) = Sunday only, 2 (only the second bit on) = Monday only, 3 (first and second bit on) = Sunday and Monday, and so forth. 
